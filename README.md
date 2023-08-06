@@ -1,6 +1,8 @@
 
 ## BASI API Empleados y SKILLS
 
+Ejecutar seeders previamente para agregar datos semilla de skills y jobs o posiciones
+
 ## ENPOINTS
 
 #### EMPLEADOS
@@ -93,9 +95,9 @@ POST v1/employeeskill
 ```
 
 {
-     ‘employee_id’ = <id>,
-     ‘skill_id’           = <id>,
-     ‘score’              = <1,2,3,4,5>
+     ‘employee_id’ : <id>,
+     ‘skill_id’    : <id>,
+     ‘score’       : <1,2,3,4,5>
 }
 
 ```http
