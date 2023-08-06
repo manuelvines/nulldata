@@ -1,6 +1,26 @@
-ENPOINTS
 
-EMPLEADOS
+## API Reference
+
+#### Get empleados
+```http
+  GET /api/v1/employees
+```
+
+#### POST empleado
+
+```http
+  POST /api/v1/employees
+```
+
+
+
+
+
+
+## ENPOINTS
+
+#### EMPLEADOS
+
 GET api/v1/employees/
 
 POST api/v1/employees/
@@ -34,7 +54,7 @@ DELETE api/v1/employees/{id}
 
 
 
-JOBS
+#### JOBS
 Empleos disponible
 
 GET         api/v1/jobs
@@ -47,7 +67,7 @@ POST       api/v1/jobs/
 Crear un nuevo empleo o puesto disponible
 
 
-SKILLS
+#### SKILLS
 
 GET v1/skills 
 retorna una lista de skills disponibles
@@ -61,7 +81,7 @@ Permite agregar un nuevo skill
 
 
 
-EMPLOYEESKILLS
+#### EMPLOYEESKILLS
 Establece una relación entre empleado y skills asignando un score.
 POST v1/employeeskill
 {
