@@ -1,5 +1,5 @@
 
-## BASI API Empleados y SKILLS
+## BASIC API Empleados y SKILLS
 
 Ejecutar seeders previamente para agregar datos semilla de skills y jobs o posiciones
 
@@ -95,8 +95,8 @@ POST v1/employeeskill
 ```
 
 {
-     ‘employee_id’ : <id>,
-     ‘skill_id’    : <id>,
+     ‘employee_id’ : 1,
+     ‘skill_id’    : 1,
      ‘score’       : <1,2,3,4,5>
 }
 
